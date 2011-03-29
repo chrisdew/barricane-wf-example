@@ -1,0 +1,20 @@
+{ "name" : "barricane-wf-example"
+, "description" : "A NodeJS-based web framework example application."
+, "version" : "0.1.0"
+, "maintainers" :
+  [ { "name": "Chris Dew"
+    , "email": "chris.dew@barricane.com"
+    }
+  ]
+, "bugs" : { "web" : "http://github.com/chrisdew/barricane-wf-example/issues" }
+, "licenses" : [ { "type" : "MIT" } ]
+, "repositories" :
+  [ { "type" : "git"
+    , "url" : "http://github.com/chrisdew/barricane-wf-example"
+    }
+  ]
+, "main" : "./lib/barricane-wf-example"
+, "engines" : { "node" : ">=0.4.4" }
+, "dependencies" : { "barricane-wf" : ">=0.1.0"
+                   }
+}
